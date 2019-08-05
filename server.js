@@ -1,8 +1,8 @@
-import express from 'express';
-import bodyParser from 'body-parser';
-import http from 'http';
-import session from 'express-session';
-import socketIO from 'socket.io';
+const express = require('express');
+const bodyParser = require('body-parser');
+const http = require('tp');
+const session = require('express-session');
+const socketIO = require('socket.io');
 const router = require('express-promise-router')();
 
 const app = express();
