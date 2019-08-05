@@ -59,6 +59,6 @@ io.on('connection',(socket) => {
   });
 });
 
-server.listen(7777, () => {
+server.listen(process.env.PORT || 7777, () => {
   console.log('The server is live on port 7777');
 })
